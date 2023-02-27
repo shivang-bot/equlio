@@ -1,13 +1,13 @@
 
-import React, { Component } from 'react'
+import React from 'react'
 import loading from './Misterious mist.gif'
 
-export default class spinner extends Component {
-  render() {
-    return (
-      <div className='text-center'>
-        <img src={loading} alt="Loading" />
-      </div>
-    )
-  }
+const spinner = (props) => {
+  return (
+    <div className='text-center'>
+      <img src={loading} alt="Loading" />
+    </div>
+  )
 }
+
+export default spinner
