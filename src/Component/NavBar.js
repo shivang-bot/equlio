@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const NavBar = (props) => {
+
     return (
         <div>
             <nav className="navbar fixed-top navbar-expand-lg bg-dark navbar-dark" data-bs-theme="dark">
@@ -43,10 +44,14 @@ const NavBar = (props) => {
                         <span className="navbar-text">
                             Get tour daily News for Free
                         </span>
+                        {/* <form className="d-flex" role="search">
+                            <input className="form-control me-2" type="search" placeholder="Search" onChange={HandleOnchange} aria-label="Search" /> */}
+                            {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
+                        {/* </form> */}
                     </div>
                 </div>
             </nav>
-        </div>
+        </div >
     )
 }
 

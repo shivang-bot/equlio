@@ -44,6 +44,8 @@ const News = (props) => {
         setTotalResults(parsedData.totalResults)
     };
 
+    
+
 
     return (
         <>
